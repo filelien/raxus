@@ -1,0 +1,43 @@
+
+> raxus@0.1.0 build
+> next build
+
+   ▲ Next.js 15.2.6
+
+   Creating an optimized production build ...
+ ✓ Compiled successfully
+   Skipping validation of types
+   Skipping linting
+   Collecting page data ...
+   Generating static pages (0/17) ...
+   Generating static pages (4/17) 
+   Generating static pages (8/17) 
+   Generating static pages (12/17) 
+ ✓ Generating static pages (17/17)
+   Finalizing page optimization ...
+   Collecting build traces ...
+
+Route (app)                                 Size  First Load JS
+┌ ○ /                                    3.18 kB         116 kB
+├ ○ /_not-found                            986 B         102 kB
+├ ○ /communications                      5.08 kB         123 kB
+├ ○ /console                             4.52 kB         113 kB
+├ ○ /dashboard                           6.04 kB         124 kB
+├ ○ /data-center                         7.81 kB         222 kB
+├ ○ /databases                           5.08 kB         224 kB
+├ ○ /diagnostics                         7.29 kB         120 kB
+├ ○ /loader                              2.03 kB         103 kB
+├ ○ /login                               3.35 kB         112 kB
+├ ○ /network                             2.75 kB         221 kB
+├ ○ /profile                             3.67 kB         112 kB
+├ ○ /security                            6.82 kB         120 kB
+├ ○ /servers                             5.24 kB         224 kB
+└ ○ /settings                            4.47 kB         122 kB
++ First Load JS shared by all             101 kB
+  ├ chunks/4bd1b696-fd61ccb0f5bdfc65.js  53.3 kB
+  ├ chunks/684-719872ec71aac837.js       45.8 kB
+  └ other shared chunks (total)           2.2 kB
+
+
+○  (Static)  prerendered as static content
+
