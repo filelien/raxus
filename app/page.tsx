@@ -80,11 +80,11 @@ export default function Home() {
           {/* Tech Stack */}
           <div className="flex flex-wrap justify-center gap-3 pt-8">
             {[
-              { text: "Next.js 15", color: "text-slate-300" },
-              { text: "React 19", color: "text-blue-300" },
-              { text: "TypeScript", color: "text-cyan-300" },
-              { text: "Tailwind CSS", color: "text-emerald-300" },
-              { text: "Radix UI", color: "text-purple-300" },
+              { text: "Cloud Systems", color: "text-slate-300" },
+              { text: "Oracle Linux & Database ", color: "text-blue-300" },
+              { text: "Advanced Security ", color: "text-cyan-300" },
+              { text: "System Administration ", color: "text-emerald-300" },
+              { text: "Artificial Intelligence & Machine Learning", color: "text-purple-300" },
             ].map((tech) => (
               <span key={tech.text} className={`rounded-full bg-slate-800/40 px-4 py-2 text-sm ${tech.color} border border-slate-700/40`}>
                 {tech.text}
